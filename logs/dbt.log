@@ -1,0 +1,26 @@
+[0m15:40:58.019267 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c9d2b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e8cec0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e8cbf0>]}
+
+
+============================== 15:40:58.023214 | e7a72e7c-c93d-4cdf-82d2-c5cb60b29a5c ==============================
+[0m15:40:58.023214 [info ] [MainThread]: Running with dbt=1.7.9
+[0m15:40:58.023699 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/paulcezard/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m15:41:54.029761 [debug] [MainThread]: Starter project path: /Users/paulcezard/VSCode Workspace/DBT/dbt-projet1/my-dbt-env/lib/python3.12/site-packages/dbt/include/starter_project
+[0m15:41:54.042859 [info ] [MainThread]: 
+Your new dbt project "dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:41:54.043554 [info ] [MainThread]: Setting up your profile.
+[0m15:41:59.709326 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a07e00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106d52930>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106f8a390>]}
+[0m15:41:59.709805 [debug] [MainThread]: Flushing usage events
